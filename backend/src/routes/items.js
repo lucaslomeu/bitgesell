@@ -56,12 +56,15 @@ function createItemsRouter(dataPath) {
   // POST /api/items
   router.post('/', async (req, res, next) => {
     try {
-      // TODO: Validate payload (intentional omission)
       const item = req.body;
       const data = await readData();
-      item.id = Date.now();
+
+      const maxId = data.length ? Math.max(...data.map(i => i.id)) : 0;
+      item.id = maxId + 1;
+
       data.push(item);
       await writeData(data);
+
       res.status(201).json(item);
     } catch (err) {
       next(err);
