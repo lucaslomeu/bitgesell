@@ -56,20 +56,17 @@
 .item-name {
   font-weight: 500;
   color: #222;
-  flex-shrink: 0;
 }
 
 .item-category {
   color: #888;
   font-size: 0.97em;
-  flex-shrink: 0;
 }
 
 .item-price {
   margin-left: auto;
   font-weight: 500;
   color: #0077cc;
-  flex-shrink: 0;
 }
 
 .item-link:hover {
