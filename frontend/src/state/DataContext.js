@@ -1,6 +1,6 @@
 import React, { createContext, useCallback, useContext, useState } from 'react';
 
-const DataContext = createContext();
+export const DataContext = createContext();
 
 export function DataProvider({ children }) {
   const [items, setItems] = useState([]);
