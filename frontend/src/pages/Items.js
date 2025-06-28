@@ -41,9 +41,11 @@ function Items() {
     const item = data[index];
     return (
       <div style={style} key={item.id} className="list-item">
-        <span className="item-name">{item.name}</span>{' '}
-        <span className="item-category">({item.category})</span>{' '}
-        <span className="item-price">{item.price}$</span>
+        <Link to={`/items/${item.id}`} className="item-link-detail">
+          <span className="item-name">{item.name}</span>{' '}
+          <span className="item-category">({item.category})</span>{' '}
+          <span className="item-price">{item.price}$</span>
+        </Link>
       </div>
     );
   }, []);

@@ -1,0 +1,56 @@
+.item-detail-container {
+  max-width: 600px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: system-ui, sans-serif;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+.item-detail-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.item-detail-container p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.item-detail-container strong {
+  font-weight: 600;
+  color: #555;
+}
+
+.item-detail-container button {
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.item-detail-container button:hover {
+  background: #f0f4fa;
+}
+
+.item-detail-container .loading {
+  text-align: center;
+  color: #666;
+  font-size: 1rem;
+}
+
+.item-detail-container .error {
+  text-align: center;
+  color: crimson;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 1rem;
+}

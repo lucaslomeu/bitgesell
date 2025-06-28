@@ -29,6 +29,25 @@
   cursor: default;
 }
 
+.item-link-detail {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  transition: background 0.15s;
+}
+
+.item-link-detail:hover,
+.item-link-detail:focus {
+  background: #f0f4fa;
+  text-decoration: none;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+}
+
 [role="list"] {
   width: 100%;
   min-width: 320px;
