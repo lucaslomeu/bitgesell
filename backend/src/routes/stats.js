@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const router = express.Router();
+const { mean } = require('../utils/mean');
 const DATA_PATH = path.join(__dirname, '../../data/items.json');
 
 const CACHE_TTL_MS = 1000 * 60;
@@ -17,7 +18,7 @@ function calculateStats(callback) {
     const items = JSON.parse(raw);
     const stats = {
       total: items.length,
-      averagePrice: items.reduce((acc, cur) => acc + cur.price, 0) / items.length
+      averagePrice: mean(items.map(item => item.price))
     }
 
     statsCache = stats;

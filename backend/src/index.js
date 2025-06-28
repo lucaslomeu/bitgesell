@@ -8,12 +8,14 @@ const getCookie = require('./utils/getCookie');
 const createItemsRouter = require('./routes/items');
 
 const app = express();
+const logger = require('./middleware/logger');
 const port = process.env.PORT || 3001;
 
 const DATA_PATH = process.env.DATA_PATH || path.resolve(__dirname, '../../data/items.json');
 
 app.use(cors({ origin: 'http://localhost:3000' }));
 // Basic middleware
+app.use(logger);
 app.use(express.json());
 app.use(morgan('dev'));
 
