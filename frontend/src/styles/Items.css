@@ -1,0 +1,141 @@
+.items-container {
+  max-width: 600px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.item-row {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.item-link {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+  pointer-events: none;
+  cursor: default;
+}
+
+[role="list"] {
+  width: 100%;
+  min-width: 320px;
+  max-width: 100%;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  margin-bottom: 1rem;
+}
+
+.list-item {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.item-name {
+  font-weight: 500;
+  color: #222;
+  flex-shrink: 0;
+}
+
+.item-category {
+  color: #888;
+  font-size: 0.97em;
+  flex-shrink: 0;
+}
+
+.item-price {
+  margin-left: auto;
+  font-weight: 500;
+  color: #0077cc;
+  flex-shrink: 0;
+}
+
+.item-link:hover {
+  text-decoration: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+button {
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Skeletons */
+.skeleton-input {
+  width: 100%;
+  height: 40px;
+  background: #eee;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.skeleton-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skeleton-item {
+  height: 48px;
+  background: #eee;
+  border-radius: 4px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #eee;
+  }
+  50% {
+    background-color: #f5f5f5;
+  }
+  100% {
+    background-color: #eee;
+  }
+}
+
+/* Accessibility */
+.sr-only {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
