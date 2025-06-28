@@ -1,22 +1,218 @@
 [
   {
     "id": 1,
-    "name": "Item A",
-    "price": 10
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 2499
   },
   {
     "id": 2,
-    "name": "Item B",
-    "price": 20
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 399
   },
   {
     "id": 3,
-    "name": "Item C",
-    "price": 30
+    "name": "Ultra‑Wide Monitor",
+    "category": "Electronics",
+    "price": 999
   },
   {
-    "name": "Novo",
-    "price": 99,
-    "id": 1751112578880
+    "id": 4,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 799
+  },
+  {
+    "id": 5,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1199
+  },
+  {
+    "id": 6,
+    "name": "Smartphone X",
+    "category": "Electronics",
+    "price": 1099
+  },
+  {
+    "id": 7,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 149
+  },
+  {
+    "id": 8,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 49
+  },
+  {
+    "id": 9,
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 129
+  },
+  {
+    "id": 10,
+    "name": "LED Desk Lamp",
+    "category": "Furniture",
+    "price": 59
+  },
+  {
+    "id": 11,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 299
+  },
+  {
+    "id": 12,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 399
+  },
+  {
+    "id": 13,
+    "name": "Office Cabinet",
+    "category": "Furniture",
+    "price": 499
+  },
+  {
+    "id": 14,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 299
+  },
+  {
+    "id": 15,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 799
+  },
+  {
+    "id": 16,
+    "name": "Fitness Tracker",
+    "category": "Electronics",
+    "price": 199
+  },
+  {
+    "id": 17,
+    "name": "Portable SSD",
+    "category": "Electronics",
+    "price": 179
+  },
+  {
+    "id": 18,
+    "name": "Gaming Chair",
+    "category": "Furniture",
+    "price": 899
+  },
+  {
+    "id": 19,
+    "name": "Monitor Arm",
+    "category": "Furniture",
+    "price": 129
+  },
+  {
+    "id": 20,
+    "name": "Conference Table",
+    "category": "Furniture",
+    "price": 1599
+  },
+  {
+    "id": 21,
+    "name": "Laser Printer",
+    "category": "Electronics",
+    "price": 349
+  },
+  {
+    "id": 22,
+    "name": "Webcam HD",
+    "category": "Electronics",
+    "price": 89
+  },
+  {
+    "id": 23,
+    "name": "Router Pro",
+    "category": "Electronics",
+    "price": 229
+  },
+  {
+    "id": 24,
+    "name": "Smart Light Bulb",
+    "category": "Electronics",
+    "price": 39
+  },
+  {
+    "id": 25,
+    "name": "Filing Cabinet",
+    "category": "Furniture",
+    "price": 399
+  },
+  {
+    "id": 26,
+    "name": "Desk Organizer",
+    "category": "Furniture",
+    "price": 49
+  },
+  {
+    "id": 27,
+    "name": "Whiteboard",
+    "category": "Furniture",
+    "price": 199
+  },
+  {
+    "id": 28,
+    "name": "Projector",
+    "category": "Electronics",
+    "price": 699
+  },
+  {
+    "id": 29,
+    "name": "Conference Phone",
+    "category": "Electronics",
+    "price": 499
+  },
+  {
+    "id": 30,
+    "name": "Laptop Stand",
+    "category": "Furniture",
+    "price": 89
+  },
+  {
+    "id": 31,
+    "name": "Wireless Charger",
+    "category": "Electronics",
+    "price": 59
+  },
+  {
+    "id": 32,
+    "name": "Smart Thermostat",
+    "category": "Electronics",
+    "price": 249
+  },
+  {
+    "id": 33,
+    "name": "Desk Mat",
+    "category": "Furniture",
+    "price": 39
+  },
+  {
+    "id": 34,
+    "name": "Ergonomic Mouse Pad",
+    "category": "Furniture",
+    "price": 29
+  },
+  {
+    "id": 35,
+    "name": "Noise Machine",
+    "category": "Electronics",
+    "price": 69
+  },
+  {
+    "name": "Test Item",
+    "category": "Test",
+    "price": 123,
+    "id": 36
   }
 ]
